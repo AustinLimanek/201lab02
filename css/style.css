@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+html{
+  background-color: rgba(70, 123, 117, 0.635);
+}
+
+main{
+  font: black;
+}
+
+header{
+  border-radius: 5px;
+  background-color: black;
+}
