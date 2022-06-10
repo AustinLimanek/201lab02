@@ -11,10 +11,14 @@ html{
 }
 
 main{
-  font: black;
+  color: black;
 }
 
 header{
   border-radius: 5px;
-  background-color: black;
+  background-color: white;
+}
+
+#quiz{
+  text-align: center;
 }
