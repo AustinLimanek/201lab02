@@ -7,6 +7,7 @@ let plants = ['cucumber', 'lettuce', 'pumpkin', 'dahlia', 'radish', 'spinach', '
 
 function myQuiz() {
   tic[0] = 1;
+  correct[0] = 0;
   person[0] = prompt('What is your name?');
 
   if (person[0]) {
@@ -72,6 +73,7 @@ function myQuiz() {
 
 function numberGuess() {
   tic[1] = 1;
+  correct[1] = 0;
 
   for (let i = 0; i < 4; i++) {
     let ans = prompt('Guess a number between 1 and 10.');
@@ -106,6 +108,8 @@ function numberGuess() {
 
 function myGarden() {
   tic[2] = 1;
+  correct[2] = 0;
+
   for (let i = 0; i < 6; i++) {
     let state = false;
     let ans;
